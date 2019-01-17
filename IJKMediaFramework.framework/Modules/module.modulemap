@@ -1,0 +1,11 @@
+framework module IJKMediaFramework {
+  umbrella header "IJKMediaFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module IJKMediaFramework.Swift {
+    header "IJKMediaFramework-Swift.h"
+    requires objc
+}
